@@ -58,3 +58,4 @@ def reduce_to_all_true(source_array)
     index =+ 1
   return true
   end
+end
