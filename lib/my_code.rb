@@ -49,10 +49,11 @@ def reduce_to_total(source_array)
   return total
 end
 
-def reduce_to_total(source_array, starting_point)
-  total = 0
-  while starting_point < source_array.count
-    total = total + source_array[starting_point]
+def reduce_to_total_starting_point(source_array, starting_point)
+  total = starting_point
+  i = 0
+  while i < source_array.count
+    total = total + source_array[i]
     starting_point += 1
   end
   return total
