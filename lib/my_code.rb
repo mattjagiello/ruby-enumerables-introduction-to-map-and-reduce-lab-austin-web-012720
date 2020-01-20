@@ -38,3 +38,13 @@ def map_to_square(source_array)
   end
   return new_array
 end
+
+def reduce_to_total(source_array)
+  total = 0
+  i = 0
+  while starting_point < source_array.count do
+    total += total + source_array[i]
+    i += 1
+  end
+  return total
+end
