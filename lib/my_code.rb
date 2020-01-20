@@ -1,10 +1,10 @@
 # My Code here....
-new_array = []
 def map_to_negativize(source_array)
+  new_array = []
   i = 0
   while i < source_array.count do
-    new_array << source_array[i]
+    new_array[i] << source_array[i]
+    i += 1
   end
-  i += 1
+  return new_array
 end
-return new_array
